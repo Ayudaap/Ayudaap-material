@@ -11,6 +11,7 @@ import { MatListModule } from '@angular/material/list';
 import { MatGridListModule, MatGridTile } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { MatMenuModule } from '@angular/material/menu';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
 
 
 
@@ -29,6 +30,7 @@ import { MatMenuModule } from '@angular/material/menu';
     MatGridListModule,
     MatCardModule,
     MatMenuModule,
+    MatProgressBarModule,
   ], exports: [
     MatTableModule,
     MatPaginatorModule,
@@ -41,7 +43,8 @@ import { MatMenuModule } from '@angular/material/menu';
     MatListModule,
     MatGridListModule,
     MatCardModule,
-    MatMenuModule
+    MatMenuModule,
+    MatProgressBarModule
   ]
 })
 export class MaterialModule { }

@@ -5,6 +5,7 @@ import { OrganizacionRoutingModule } from './organizacion-routing.module';
 import { OrganizacionComponent } from './organizacion.component';
 import { MaterialModule } from '../../material.module';
 import { DetalleOranizacionComponent } from './detalle-oranizacion/detalle-oranizacion.component';
+import { ComponentsModule } from '../../components/components.module';
 
 
 @NgModule({
@@ -12,7 +13,8 @@ import { DetalleOranizacionComponent } from './detalle-oranizacion/detalle-orani
   imports: [
     CommonModule,
     OrganizacionRoutingModule,
-    MaterialModule
+    MaterialModule,
+    ComponentsModule
   ]
 })
 export class OrganizacionModule { }

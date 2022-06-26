@@ -7,6 +7,7 @@ import { DashboardComponent } from './shared/dashboard/dashboard.component';
 import { MaterialModule } from '../material.module';
 import { HttpClientModule } from '@angular/common/http';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { ComponentsModule } from '../components/components.module';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     CommonModule,
     PagesRoutingModule,
     HttpClientModule,
-    MaterialModule
+    MaterialModule,
+    ComponentsModule
   ], exports: [
     NavbarComponent,
     DashboardComponent
