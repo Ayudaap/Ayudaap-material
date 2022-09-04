@@ -8,10 +8,11 @@ import { MaterialModule } from '../material.module';
 import { HttpClientModule } from '@angular/common/http';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ComponentsModule } from '../components/components.module';
+import { ProyectosComponent } from './proyectos/proyectos.component';
 
 
 @NgModule({
-  declarations: [NavbarComponent, DashboardComponent, PageNotFoundComponent],
+  declarations: [NavbarComponent, DashboardComponent, PageNotFoundComponent, ProyectosComponent],
   imports: [
     CommonModule,
     PagesRoutingModule,
