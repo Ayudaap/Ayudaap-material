@@ -3,7 +3,7 @@
 <mat-grid-list cols="4" rowHeight="100px">
     <mat-grid-tile colspan=4 rowspan=2 style="background:lightgreen"><img [src]="organizacion.banner"></mat-grid-tile>
     <mat-grid-tile colspan=4 rowspan=1><h2 class="mat-title">{{organizacion.nombre}}</h2></mat-grid-tile>
-    <mat-grid-tile colspan=1 rowspan=1 style="background:lightgreen"></mat-grid-tile>
-    <mat-grid-tile colspan=1 rowspan=1 style="background:lightpink">3</mat-grid-tile>
-    <mat-grid-tile colspan=2 rowspan=1 style="background:#DDBDF1">4</mat-grid-tile>
+    <mat-grid-tile colspan=1 rowspan=1 style="background:lightgreen">{{organizacion.direccion.estado}}</mat-grid-tile>
+    <mat-grid-tile colspan=1 rowspan=1 style="background:lightpink">{{organizacion.direccion.directorio[0].nombre}}</mat-grid-tile>
+    <mat-grid-tile colspan=2 rowspan=1 style="background:#DDBDF1">{{organizacion.direccion.directorio[0].correoElectronico}}</mat-grid-tile>
 </mat-grid-list>

@@ -9,7 +9,7 @@ import { delay, tap } from 'rxjs/operators';
 })
 export class OrganizacionService {
 
-  private baseUrl = 'http://ayudaap-api:88/api/v1/';
+  private baseUrl = 'http://localhost:88/api/v1/';
   organizaciones: Array<OrganizacionModel> = [];
 
   constructor(private _http: HttpClient) { }
